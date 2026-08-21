@@ -1,0 +1,3 @@
+diamond = "\t\t\t\t\t\t\t\t\t*\n\t\t\t\t\t\t\t\t*\t\t*\n\t\t\t\t\t\t\t*\t\t\t\t*\n\t\t\t\t\t\t*\t\t\t\t\t\t*\n\t\t\t\t\t*\t\t\t\t\t\t\t\t*\n\t\t\t\t*\t\t\t\t\t\t\t\t\t\t*\n\t\t\t*\t\t\t\t\t\t\t\t\t\t\t\t*\n\t\t*\t\t\t\t\t\t\t\t\t\t\t\t\t\t*\n\t*\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t*\n\t\t\t\t\t\t\t\t My Name is\n\t\t\t\t\t\t\t\tRey Justine\n*\n\t*\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t*\n\t\t*\t\t\t\t\t\t\t\t\t\t\t\t\t\t*\n\t\t\t*\t\t\t\t\t\t\t\t\t\t\t\t*\n\t\t\t\t*\t\t\t\t\t\t\t\t\t\t*\n\t\t\t\t\t*\t\t\t\t\t\t\t\t*\n\t\t\t\t\t\t*\t\t\t\t\t\t*\n\t\t\t\t\t\t\t*\t\t\t\t*\n\t\t\t\t\t\t\t\t*\t\t*\n\t\t\t\t\t\t\t\t\t*"
+
+print(diamond)
