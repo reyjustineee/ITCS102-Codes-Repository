@@ -1,0 +1,2 @@
+print ("nakakainisch")
+print ("cute")
