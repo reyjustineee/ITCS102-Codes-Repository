@@ -54,17 +54,17 @@ if owner_age >=21 and years_in_business >= 2.0 and has_defaults == False:
             print("Base fee rate is set to", base_fee)
 
         #collateral
-            if collateral_value >= max_loan:
-                print("Collaterral", collateral_name, "with a value of", collateral_value, "is ACCEPTED")
-            else:
-                print("Rejected: Insufficient collateral value for", collateral_name)
+        if collateral_value >= max_loan:
+            print("Collaterral", collateral_name, "with a value of", collateral_value, "is ACCEPTED")
+        else:
+            print("Rejected: Insufficient collateral value for", collateral_name)
         
-            #subcharge
-            surge_fee_rate = max_loan * base_fee
-            if max_loan % 500!= 0:
-                print("Additonal charge added")
-                surge_fee_rate += 250
-                print("Updated base fee is", base_fee)
+        #subcharge
+        surge_fee_rate = max_loan * base_fee
+        if max_loan % 500!= 0:
+            print("Additonal charge added")
+            surge_fee_rate += 250
+            print("Updated base fee is", base_fee)
 
     elif credit_score < 620: #tier3
         print("\nRejected: Credit score below requirement")
